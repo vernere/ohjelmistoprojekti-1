@@ -25,4 +25,9 @@ public class mainTest {
         assertEquals(false, tempc.isExtremeTemperature(20));
 
     }
+    
+    @Test
+    public void kelvinToCelcius(){
+        assertEquals(-223.14, tempc.kelvinToCelcius(50), 0.01);
+    }
 }

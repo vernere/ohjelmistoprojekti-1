@@ -19,4 +19,9 @@ public class TemperatureConverter {
             return false;
         }
     }
+
+    public double kelvinToCelcius(double temp){
+        double celcius = temp - 273.15;
+        return celcius;
+    }
 }
